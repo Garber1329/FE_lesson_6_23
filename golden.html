@@ -5,47 +5,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="css/golden.css">
 </head>
 
 <body>
-    <header>
-        <a href="#">
-            <img src="img2/Logo.png" alt="логотип">
+    <header class="header">
+        <a class="header-logo" href="#">
+            <img class="header-img" src="img/Logo.png" alt="логотип">
         </a>
-        <nav>
-            <ul>
-                <li><a href="index.html">FotoBlog</a></li>
-                <li><a href="mogo.html">Mogo</a></li>
-                <li><a href="golden.html">Golden</a></li>
-                <li><a href="#">HOME</a></li>
-                <li><a href="#">SERVICES</a></li>
-                <li><a href="#">PORTFOLIO</a></li>
-                <li><a href="#">ABOUT</a></li>
-                <li><a href="#">CONTACT</a></li>
+        <nav class="header-navigation">
+            <ul class="header-list">
+                <li class="header-item"><a class="header-link" href="index.html">FotoBlog</a></li>
+                <li class="header-item"><a class="header-link" href="mogo.html">Mogo</a></li>
+                <li class="header-item"><a class="header-link" href="golden.html">Golden</a></li>
+                <li class="header-item"><a class="header-link" href="#">HOME</a></li>
+                <li class="header-item"><a class="header-link" href="#">SERVICES</a></li>
+                <li class="header-item"><a class="header-link" href="#">PORTFOLIO</a></li>
+                <li class="header-item"><a class="header-link" href="#">ABOUT</a></li>
+                <li class="header-item"><a class="header-link" href="#">CONTACT</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section>
-            <h2>SERVICES</h2>
+        <section class="services">
+            <h2 class="services-title">SERVICES</h2>
             <article>
-                <ul>
-                    <li>
-                        <img src="img2/Group 1.png" alt="фото 1">
+                <ul class="services-list">
+                    <li class="services-item">
+                        <img src="img/Group 1.png" alt="фото 1">
                         <h4>E-Commerce</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit quo sit commodi veritatis
                             delectus dignissimos saepe porro eos minima, veniam, ab quia rem distinctio excepturi ipsa
                             ea natus, soluta quasi.</p>
                     </li>
-                    <li>
-                        <img src="img2/Group 2.png" alt="фото 2">
+                    <li class="services-item">
+                        <img src="img/Group 2.png" alt="фото 2">
                         <h4>Responsive Web</h4>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem repellat accusamus est,
                             voluptates numquam deserunt officia, quibusdam saepe pariatur ipsa praesentium non, quae
                             ducimus sed animi perspiciatis quis iure recusandae?</p>
                     </li>
-                    <li>
-                        <img src="img2/Group 3.png" alt="фото 3">
+                    <li class="services-item">
+                        <img src="img/Group 3.png" alt="фото 3">
                         <h4>Web Security</h4>
                         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ad officia, deleniti mollitia
                             doloribus fugit laboriosam dolore nisi ut repudiandae suscipit placeat qui pariatur,
@@ -55,29 +57,26 @@
             </article>
         </section>
     </main>
-    <footer>
-        <section>
-            <form>
-                <div>
-                    <label>
-                        <input type="text" name="name" id="name" placeholder="YOUR NAME">
-                    </label>
-                    <br>
-                    <label>
-                        <input type="email" name="email" id="email" placeholder="YOUR E-MAIL">
-                    </label>
-                    <label>
-                        <input type="text" name="text" id="text" placeholder="SUBJECT">
-                    </label>
-                </div>
-                <div>
-                    <label>
-                        <textarea name="Коментар" rows="5" id="textarea" placeholder="YOUR MASSAGE"></textarea>
-                    </label>
-                </div>
-                <button type="submit">SEND MASSAGE</button>
-            </form>
-        </section>
+    <footer class="footer">
+        <form class="footer-form">
+            <div class="footer-form-left">
+                <label>
+                    <input class="footer-form-input" type="text" name="name" id="name" placeholder="YOUR NAME">
+                </label>
+                <label>
+                    <input class="footer-form-input" type="email" name="email" id="email" placeholder="YOUR E-MAIL">
+                </label>
+                <label>
+                    <input class="footer-form-input" type="text" name="text" id="text" placeholder="SUBJECT">
+                </label>
+            </div>
+            <div class="footer-form-rigth">
+                <label>
+                    <textarea class="footer-form-textarea" name="Коментар" rows="5" id="textarea" placeholder="YOUR MASSAGE"></textarea>
+                </label>
+            </div>
+            <button class="footer-form-button" type="submit">SEND MASSAGE</button>
+        </form>
     </footer>
 </body>
 

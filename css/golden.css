@@ -1,0 +1,77 @@
+:root{
+    --aсcent-color-yellow: #FED136;
+    --text-color-dark: #222;
+    --text-color-gray: #777;
+    --text-color-input: #BBBBBB;
+}
+
+/* 
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto Slab', serif; 
+*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header-navigation{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.header-list{
+    list-style: none;
+}
+
+.header-link{
+    color: var(--aсcent-color-yellow);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-link:hover{
+    color: #c18908;
+}
+
+.services-title{
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.services-list{
+    list-style: none;
+}
+
+.services-item img{
+    width: 70px;
+}
+
+.services-item h4{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.services-item p{
+    font-family: 'Roboto Slab', serif;
+    font-size: 14px; 
+}
+.footer-form-input::placeholder,
+.footer-form-textarea::placeholder{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.footer{
+    background-color: var(--text-color-dark);
+}
+
+.footer-form-button{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 23px 33px;
+    border: 0;
+    background-color: var(--aсcent-color-yellow);
+    color: #FFF;
+}

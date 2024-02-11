@@ -10,8 +10,19 @@
     font-family: 'Montserrat', sans-serif;
 */
 
+*{
+    box-sizing: border-box;
+}
+
+
 body{
     font-family: 'Roboto', sans-serif; 
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
 }
 
 .header-navigation{
@@ -100,4 +111,65 @@ body{
     color: #FFF;
     font-weight: 700;
     text-transform: uppercase;
+}
+
+.header{
+    padding: 17px 0;
+}
+
+.we-work-with-title{
+    margin: 68px 0;
+    text-align: center;
+}
+.we-work-with-title_line{
+    width: 60px;
+    height: 4px;
+    background-color: var(--accent-color-orange);
+    margin: 40px auto 0 auto;
+}
+
+.we-work-with-item{
+    margin-bottom: 100px;
+}
+
+.we-work-with-list{
+    margin-top: 65px;
+    margin-bottom: 100px;
+}
+
+.who-we-are-title,
+.who-we-are-desc{
+    text-align: center;
+}
+
+.who-we-are-title p{
+    margin-top: 45px;
+}
+
+.who-we-are-list{
+    margin-top: 27px;
+    margin-bottom: 80px;
+}
+
+.who-we-are-item{
+    width: 380px;
+}
+
+.footer{
+    padding: 10px 0;
+    border-top: 1px solid var(--text-color-gray);
+}
+
+.footer-input{
+    width: 230px;
+    height: 39px;
+    border: 1px solid var(--text-color-gray);
+    display: block;
+    padding-left: 10px;
+}
+
+.footer-input::placeholder{
+    font-size: 14px;
+    font-weight: 300;
+    font-style: italic;
 }

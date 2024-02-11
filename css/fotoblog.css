@@ -13,6 +13,16 @@ body{
     font-family: 'Playfair Display', serif;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header-navigation{
     font-weight: 400;
     font-size: 14px;
@@ -60,4 +70,25 @@ body{
     color: var(--text-color-main);
     font-size: 14px;
     padding: 20px 48px;
+}
+
+.header{
+    margin-top: 71px;
+    margin-bottom: 92px;
+}
+
+.post{
+    margin-bottom: 60px;
+}
+
+.post-item{
+    margin-bottom: 130px;
+}
+
+.post-item h2{
+    margin: 36px 0;
+}
+
+.post-item span{
+    margin-top: 62px;
 }

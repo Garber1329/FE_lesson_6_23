@@ -14,6 +14,16 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
 .header-navigation{
     font-weight: 400;
     font-size: 14px;
@@ -37,6 +47,7 @@ body{
     text-transform: uppercase;
     font-size: 40px;
     font-weight: 700;
+    text-align: center;
 }
 
 .services-list{
@@ -74,4 +85,39 @@ body{
     border: 0;
     background-color: var(--aсcent-color-yellow);
     color: #FFF;
+    cursor: pointer;
+}
+
+.header{
+    margin: 44px 0;
+}
+
+.services{
+    margin-top: 90px;
+    margin-bottom: 110px;
+}
+
+.services-title{
+    margin-bottom: 90px;
+}
+
+.footer{
+    padding: 92px 0 115px 0;
+}
+
+.footer-title{
+    color: white;
+    text-align: center;
+}
+
+.footer-form-input{
+    width: 455px;
+    height: 50px;
+    display: block;
+    margin-bottom: 28px;
+}
+
+.footer-form-textarea{
+    width: 455px;
+    height: 212px ;
 }

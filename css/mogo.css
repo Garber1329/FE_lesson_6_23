@@ -23,6 +23,7 @@ body{
     width: 1200px;
     margin: 0 auto;
     padding: 0 15px;
+    box-sizing: content-box;
 }
 
 .header-navigation{
@@ -134,7 +135,6 @@ body{
 
 .we-work-with-list{
     margin-top: 65px;
-    margin-bottom: 100px;
 }
 
 .who-we-are-title,
@@ -172,4 +172,63 @@ body{
     font-size: 14px;
     font-weight: 300;
     font-style: italic;
+}
+
+.header-list{
+    display: flex;
+}
+.header-item:not(:last-child){
+    margin-right: 55px;
+}
+
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.we-work-with-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.we-work-with-item{
+    width: 330px;
+}
+
+.who-we-are-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.who-we-are-item{
+    margin: 0;
+}
+
+.footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-form{
+    display: flex;
+}
+.who-we-are .container{
+    display: flex;
+    flex-direction: column;
+}
+
+.we-work-with-item{
+    display: flex;
+    align-items: flex-start;
+}
+
+.we-work-with-item img{
+    margin-right: 19px;
+}
+
+.we-work-with-item-text h4{
+    margin-top: 0px;
 }

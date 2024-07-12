@@ -40,10 +40,19 @@ body{
     color: var(--aсcent-color-aqua);
     text-decoration: none;
     text-transform: uppercase;
+    position: relative;
 }
 
 .header-link:hover{
     color: var(--accent-color-orange);
+}
+.header-link:hover::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: -7px;
+    background-color: var(--accent-color-orange);
 }
 
 .we-work-with-title,
@@ -231,4 +240,26 @@ body{
 
 .we-work-with-item-text h4{
     margin-top: 0px;
+}
+
+.who-we-are-item-img-wrap {
+    position: relative;
+}
+.who-we-are-item-link-list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(180deg, #f5af1994,#f12711a7);
+    display: none;
+}
+
+.who-we-are-item-img-wrap:hover .who-we-are-item-link-list{
+    display: flex;
+}
+.who-we-are-item-link-item {
 }

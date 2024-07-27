@@ -12,6 +12,7 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
+    overflow-y: hidden;
 }
 
 *{
@@ -49,6 +50,7 @@ body{
     font-size: 40px;
     font-weight: 700;
     text-align: center;
+   
 }
 
 .services-list{
